@@ -1,0 +1,13 @@
+{
+  "name": "toot",
+  "version": "1.0.0",
+  "description": "CLI to tweet from terminal",
+  "main": "toot.js",
+  "bin": {
+    "toot": "./toot.js"
+  },
+  "scripts": {
+    "start": "node toot.js",
+    "dev": "nodemon toot.js"
+  }
+}
